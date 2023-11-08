@@ -48,7 +48,7 @@ h1 {
     display: inline-block;
     font-size: 4em;
     color: #1f8A70;
-    background-image: url(images/ile-de-batz.jpg);
+    background-image: url(assets/images/ile-de-batz.jpg);
     background-repeat: no-repeat;
     background-position: center;
     width: 80%;
@@ -141,7 +141,7 @@ section + article > div {
 }
 
 section + article ul {
-    list-style-image: url(images/puce-fleur.png);
+    list-style-image: url(assets/images/puce-fleur.png);
 }
 
 section + article ul ul {
