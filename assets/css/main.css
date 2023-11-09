@@ -522,7 +522,8 @@ button
 
 #about .clients img
 {
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
+    margin: 0 auto 3rem auto;
 }
 
 
