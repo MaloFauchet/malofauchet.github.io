@@ -796,7 +796,7 @@ button
     margin: 0 auto 6vh auto;
 }
 
-.featherlight .featherlight-content .work-lightbox h3
+.featherlight .featherlight-content .work-lightbox h2
 {
     margin-bottom: .2em;
 }
@@ -808,6 +808,11 @@ button
     letter-spacing: .025em;
 }
 
+/* .featherlight .featherlight-content .work-lightbox h5
+{
+    text-decoration: underline;
+} */
+
 .featherlight .featherlight-content .work-lightbox p
 {
     max-width: 660px;
@@ -815,9 +820,31 @@ button
     margin-bottom: 2em;
 }
 
+.featherlight .featherlight-content .work-lightbox ul
+{
+    margin-top: 0;
+    margin-bottom: 2em;
+    list-style-type: none;
+}
+
+.featherlight .featherlight-content .work-lightbox hr.normal
+{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.featherlight .featherlight-content .work-lightbox hr
+{
+    border: 1px solid #535353;
+    border-radius: 5px;
+    width: 50%;
+}
+
 .featherlight .featherlight-content .work-lightbox p:last-child
 {
     margin-bottom: 0;
+
 }
 
 
