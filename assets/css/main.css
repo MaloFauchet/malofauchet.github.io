@@ -283,7 +283,7 @@ button
 
     width: 100%;
     padding: 0 20px;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .content-area .content-area-inner section
@@ -505,6 +505,29 @@ button
     opacity: 1;
 }
 
+.header-nav {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    /* position: -webkit-sticky; */
+    background-color: #10101a;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+    padding: 1em;
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 1.5em;
+    list-style: none;
+}
+
 
 
 /** 6. Content Area --> About
@@ -530,6 +553,11 @@ button
 
 /** 7. Content Area --> Service
 *******************************************************************/
+
+#service
+{
+    display: none;
+}
 
 #service .services-list
 {
@@ -1086,6 +1114,12 @@ button
     font-size: 2.4rem;
 
     margin-right: .7em;
+}
+
+address
+{
+    font-style: normal;
+    text-decoration: underline;
 }
 
 
