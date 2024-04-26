@@ -67,7 +67,7 @@ h6
 
 h1
 {
-    font-size: 7.2rem;
+    font-size: 6.2rem;
 }
 
 h2
@@ -544,9 +544,14 @@ button
 /** 6. Content Area --> About
 *******************************************************************/
 
-#about p
+#about p.scroll-animated
 {
-    margin-bottom: 2.2em;
+    margin-top: 2.2em;
+}
+
+#about p {
+    text-indent: 35px;
+    text-align: justify;
 }
 
 #about p:last-child
@@ -1186,6 +1191,11 @@ address
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
     text-align: center;
+}
+
+#footer .social-icons li.right-alignement
+{
+    float: right;
 }
 
 #footer .social-icons li a i:first-child
