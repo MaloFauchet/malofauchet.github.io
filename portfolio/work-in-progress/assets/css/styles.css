@@ -61,6 +61,15 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+body::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ff122a;
+  outline: 1px solid #ff122a;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
