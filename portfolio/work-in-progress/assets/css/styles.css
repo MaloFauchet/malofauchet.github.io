@@ -10980,7 +10980,6 @@ header.masthead h1, header.masthead .h1 {
 .sous-titre {
   font-size: 1.75rem;
   line-height: 1px;
-  text-wrap: nowrap;
 }
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
@@ -11017,4 +11016,9 @@ header.masthead h1, header.masthead .h1 {
 }
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+.competence-img {
+  border-radius: 10px;
+  margin-bottom: 1em;
 }
