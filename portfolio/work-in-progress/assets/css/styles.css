@@ -11028,6 +11028,10 @@ header.masthead h1, header.masthead .h1 {
     opacity: 1;
     background: rgba(244, 98, 58, 0.5);
   }
+
+  embed {
+    display: none;
+  }
 }
 
 .competence-btn {
