@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -17,6 +17,8 @@
         <!-- SimpleLightbox plugin CSS-->
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+        <!-- font-awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="assets/css/styles.css" rel="stylesheet" />
     </head>
@@ -214,25 +216,25 @@
                         <form id="contactForm" action="assets/php/contact.php" data-sb-form-api-token="API_TOKEN" method="post">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" name="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <input class="form-control" id="name" name="name" type="text" placeholder="Enter your name..." data-sb-validations="required" disabled/>
                                 <label for="name">Nom complet*</label>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">Veuillez entrer votre nom complet.</div>
                             </div>
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="email" name="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <input class="form-control" id="email" name="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" disabled/>
                                 <label for="email">Adresse E-mail*</label>
                                 <div class="invalid-feedback" data-sb-feedback="email:required">Veuillez entrer un e-mail.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">L'E-mail entré est invalide.</div>
                             </div>
                             <!-- Phone number input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" name="tel" type="tel" placeholder="00 00 00 00 00" data-sb-validations="" />
+                                <input class="form-control" id="phone" name="tel" type="tel" placeholder="00 00 00 00 00" data-sb-validations="" disabled/>
                                 <label for="phone">Téléphone</label>
                             </div>
                             <!-- Message input-->
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required" disabled></textarea>
                                 <label for="message">Message*</label>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">Veuillez entrer un message.</div>
                             </div>
@@ -257,6 +259,12 @@
                             <!-- Submit Button-->
                             <div class="d-grid"><button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Envoyer</button></div>
                         </form>
+                        <div class="text-center mb-3" style="margin-top: 1em;">
+                            <div class="fw-bold">
+                                Malheureusement, ce formulaire ne fonctionne pas encore...
+                                <br>Contacter moi directement à l'adresse suivante: <a href="mailto:malofauchetpro@gmail.com">malofauchetpro@gmail.com</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -270,19 +278,15 @@
         <!-- Footer-->
         <footer class="bg-light py-5">
             <ul class="social-icons scroll-animated">
-                <li><a href="https://www.instagram.com/_malo_f_/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                <li><a href="https://github.com/MaloFauchet/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/malo-fauchet/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/_malo_f_/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://github.com/MaloFauchet/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/malo-fauchet/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
             </ul>
-            <span class="fa-stack fa-2x">
-                <i class="fa-thin fa-circle fa-stack-2x"></i>
-                <i class="fa-solid fa-lock fa-stack-1x fa-inverse"></i>
-            </span>
             <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2024 - FAUCHET Malo</div></div>
 
-            <!-- <div class="container px-4 px-lg-5 pt-2"><div class="small text-center text-muted">Distributed By <a href="https://themewagon.com/">Themewagon</a> -->
-            </div></div>
+            <!-- <div class="container px-4 px-lg-5 pt-2"><div class="small text-center text-muted">Distributed By <a href="https://themewagon.com/">Themewagon</a></div></div> -->
         </footer>
+        <a href="#" class="top">Retour &#8593;</a>
 
         
         <!-- Bootstrap core JS-->
